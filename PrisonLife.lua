@@ -1,3 +1,10 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title    = "Prison Life"; 
+    Text     = "Made by DumbSuperMig"; 
+    Icon     = "http://www.roblox.com/asset?id=6056183927"; 
+    Duration = 8;
+    Callback = bindableFunction; 
+})
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 
 local w = library:CreateWindow("MLG HUB - V Beta 0.15") -- Creates the window
