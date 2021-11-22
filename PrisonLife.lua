@@ -256,7 +256,7 @@ Sword.Parent = game.Players.LocalPlayer.Backpack
 end)
 
 b:Button("Ban Hammer",function()
-local Sword = Instance.new("Tool")
+ local Sword = Instance.new("Tool")
 local Handle = Instance.new("Part")
 local Mesh = Instance.new("SpecialMesh")
 local Unsheath = Instance.new("Sound")
@@ -278,7 +278,7 @@ Sword.GripForward = Vector3.new(-1,0,0)
 Sword.GripPos = Vector3.new(0,0,-1.5)
 Sword.GripRight = Vector3.new(0,1,0)
 Sword.GripUp = Vector3.new(0,0,1)
-Sword.ToolTip = "Ban Hammer Of DumbSuperMig"
+Sword.ToolTip = "Tool From MLG HUB"
 Sword.TextureId = "rbxasset://Textures/Sword128.png"
 Sword.CanBeDropped = false
 Sword.RequiresHandle = true
@@ -286,11 +286,11 @@ Handle.Orientation = Vector3.new(-46.24, 42.14, 50.93)
 Handle.Position = Vector3.new(-3.174,1.57,3.04)
 Handle.CanCollide = true
 Handle.Size = Vector3.new(1,.8,4)
-Mesh.MeshId = "rbxasset://fonts/sword.mesh"
+Mesh.MeshId = "http://www.roblox.com/asset?id=10604848"
 Mesh.MeshType = "FileMesh"
 Mesh.Offset = Vector3.new(0,0,0)
 Mesh.Scale = Vector3.new(1,1,1)
-Mesh.TextureId = "rbxasset://textures/SwordTexture.png"
+Mesh.TextureId = "http://www.roblox.com/asset?id=10605252"
 Sword.Equipped:Connect(function()
 Unsheath:Play()
 end)
@@ -305,8 +305,8 @@ Anim.Name = "toolanim"
 Anim.Value = "Slash"
 Anim.Parent = Sword
 end)
-Mouse_Icon = "http://www.roblox.com/asset/?id=10604848"
-Reloading_Icon = "http://www.roblox.com/asset/?id=10605252"
+Mouse_Icon = "rbxasset://textures/GunCursor.png"
+Reloading_Icon = "rbxasset://textures/GunWaitCursor.png"
 Tool = Sword
 Mouse = nil
 function UpdateIcon()
@@ -326,7 +326,6 @@ end
 Tool.Equipped:Connect(OnEquipped)
 Tool.Changed:Connect(OnChanged)
 Sword.Parent = game.Players.LocalPlayer.Backpack
-end
 end)
 
 local b = w:CreateFolder("Credits") -- Creates the folder(U will put here your buttons,etc)
