@@ -183,7 +183,7 @@ b:Button("TP To Prison",function()
 end)
 
 b:Button("Sword",function()
- loadstring(game:HttpGet("https://pastebin.com/raw/6SJSqZkf"))()
+ loadstring(game:HttpGet("https://pastebin.com/raw/GANyq4ev"))()
 end)
 
 local b = w:CreateFolder("Credits") -- Creates the folder(U will put here your buttons,etc)
