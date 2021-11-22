@@ -217,7 +217,7 @@ Mesh.MeshId = "rbxasset://fonts/sword.mesh"
 Mesh.MeshType = "FileMesh"
 Mesh.Offset = Vector3.new(0,0,0)
 Mesh.Scale = Vector3.new(1,1,1)
-Mesh.TextureId = "rbxasset://textures/SwordTexture.png"
+Mesh.TextureId = "http://www.roblox.com/asset?id=195696364"
 Sword.Equipped:Connect(function()
 Unsheath:Play()
 end)
