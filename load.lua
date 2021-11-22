@@ -1,7 +1,7 @@
 local MarketplaceService = game:GetService("MarketplaceService")
 
 local games = {
-    [155615604] = {src="https://raw.githubusercontent.com/Entoy77/Dark-Hub/main/Init"}, -- Blox Fruits
+    [155615604] = {src="https://raw.githubusercontent.com/Entoy77/MLGHUB/main/PrisonLife.lua"}, -- Only Works On Prison Life
 } 
 
 local check = games[game.PlaceId] 
