@@ -256,7 +256,7 @@ Sword.Parent = game.Players.LocalPlayer.Backpack
 end)
 
 b:Button("Ban Hammer",function()
-	local Sword = Instance.new("Tool")
+local Sword = Instance.new("Tool")
 local Handle = Instance.new("Part")
 local Mesh = Instance.new("SpecialMesh")
 local Unsheath = Instance.new("Sound")
