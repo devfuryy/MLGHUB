@@ -2,6 +2,8 @@
 - Script Loadstring
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Entoy77/MLGHUB/main/load.lua", true))()
+
+print("Hub made with UI LIB LOL")
 ```
 
 SUS
