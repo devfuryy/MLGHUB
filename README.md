@@ -2,7 +2,7 @@
 - Script Loadstring
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/devfuryy/MLGHUB/main/load.lua", true))()
-warn("By devfuryy entoy77 is my old github account lol
+warn("By devfuryy entoy77 is my old github account lol")
 ```
 #### Coming Soon
 - Coming to Other Games
