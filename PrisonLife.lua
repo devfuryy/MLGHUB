@@ -5,7 +5,7 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 8;
     Callback = bindableFunction; 
 })
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/devfuryy/MLGHUB/main/Lib.lua')))()
 
 local w = library:CreateWindow("MLG HUB - V Beta 0.15") -- Creates the window
 
