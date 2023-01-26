@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
     Title    = "Prison Life"; 
-    Text     = "Made by DumbSuperMig"; 
+    Text     = "Made by Entoy77 and devfuryy"; 
     Icon     = "http://www.roblox.com/asset?id=6056183927"; 
     Duration = 8;
     Callback = bindableFunction; 
